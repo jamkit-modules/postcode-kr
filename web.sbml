@@ -4,7 +4,7 @@
             javascript-bridge="__$_bridge", uses-browser-user-agent=yes, \
             content-script@start=${dir-path}/cleanup.js, \
             script-when-loaded=${web-prefix}__on_web_loaded, \
-            style=web
+            console-message-enabled=yes, style=web
 
 =object progress: type=loading, owner=${web-id}.web, style=progress_web
 
